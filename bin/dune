@@ -1,0 +1,5 @@
+(executable
+ (name chat)
+ (libraries core_unix.command_unix async base64)
+ (preprocess
+  (pps ppx_let)))
